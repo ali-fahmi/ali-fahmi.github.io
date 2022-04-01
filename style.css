@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	/* background-image: url('img/BlueMosqueTabriz.png'); */
+	color: #000305;
+	font-size: 87.5%; /* Base font size is 14px*/
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none; /* No undeline or similar things*/
+}
+
+a:link, a:visited {
+	color: #2d3ddc; /* This is the color of title of each box */
+}
+
+a:hover, a:active {
+	background-color: #2d3ddc; /* This is the background color of box title when cursor places on that */
+	color: #FFF;   /* This is the color of the text of title box when cursor places on the title */
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+	margin-top: 2%;
+}
+
+.mainHeader img {
+    width: 30%;
+    height: auto;
+	margin: 2% 0;   /* without this the image stick to the top line */
+}
+
+
+.mainHeader nav {
+	background-color: #666;
+    height: 40px;
+    border-radius: 5px;        /* This line and two on the bottom circle the corners of boxes*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;	
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+	
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: white;
+	display: inline-block;
+	padding: 10px 25px;
+    height: 20px; /* height of nav bar*/
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #2d3ddc;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	/* background-color can be defined here */ 
+    float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;   /* 3 percent on the top and 5 on the sides */
+	margin-top: 2%;
+}
+
+
+
+
+/* Style all font awesome icons */
+.fa:link, .fa:visited {
+	color: white;
+	margin-left: 30px;
+	padding: 10px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	color: white;
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #33CCFF;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #4875B4;
+    color: white;
+}
+
+
+
+/* Style all font awesome icons */
+.ai:link, .ai:visited {
+	color: white;
+	margin-left: 30px;
+	padding: 10px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Add a hover effect if you want */
+.ai:hover {
+	color: white;
+    opacity: 0.7;
+}
+
+.ai-google-scholar-square {
+	background: #3079ed;
+}
+
+.ai-researchgate {
+	background: #0cb;
+}
+
+.ai-orcid {
+	background: #a6ce39;
+}
+
+.ai-mendeley {
+	background: #bc2426;
+}
+
+.secondcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;   /* 3 percent on the top and 5 on the sides */
+	margin-top: 2%;
+}
+
+.thirdcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;   /* 3 percent on the top and 5 on the sides */
+	margin-top: 2%;
+}
+
+.fourthcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;   /* 3 percent on the top and 5 on the sides */
+	margin-top: 2%;
+}
+
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #ebf0f5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 2% 3%;  /* We can apply margins for top, right, bottom, and left by one command as written */
+	padding: 2% 3%;
+}
+
+.middle-sidebar {
+	width: 21%;
+	height: 350px;
+	float: left;
+	background-color: #ebf0f5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.twitter-follow-button{
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin: 2% 0; /* Margin for top and bottom */
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 1% auto;
+	color: #FFF;
+}
+
+/* Following commands are to make the web page responsive when it's minimized */
+/* We delete all commands that we don't want them to be changed in the minimization process */
+
+
+
+@media only screen and (min-width: 250px) and (max-width: 1135px){
+	
+	.body{
+	    width: 90%;
+		font-size: 95%;
+	}	
+	
+	.mainHeader img {    /* This is the logo */
+        width: 100%;
+    }
+	
+	.mainHeader nav {
+        height: 160px;     /* This was 40, but now is 4 times higher to create a rectangular */
+    }
+
+	.mainHeader nav ul {
+	    padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+	    width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+	    padding: 10px 25px;
+        height: 20px; /* height of nav bar*/
+		display: block;
+	}
+	
+	.content {
+		width: 100%; /* background-color can be defined here */ 
+		float: left;
+		margin-top: 2%;
+	}
+
+	.post-info {
+		display: none;
+	}
+	
+	.topcontent {
+		background-color: #FFF;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;   /* 3 percent on the top and 5 on the sides */
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+	
+	.fa, .ai {
+		margin-top: 5px;
+	}
+
+	.secondcontent {
+		margin-top: 3%;
+	}
+	
+	.thirdcontent {
+		margin-top: 3%;
+	}
+	
+	.fourthcontent {
+		margin-top: 3%;
+	}
+	
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {  /* By writing all of three classes, there is no need to write them one by one and repeat the following commands for each */
+		float: center;
+		width: 45%;
+		margin: 2% 0 2% 0;  /* We can apply margins for top, right, bottom, and left by one command as written */
+		padding: 2% 3%;
+	}
+	.twitter-timeline {
+		float: left;
+	}
+	.twitter-follow-button {
+		float: left;
+		margin-top: 10px;
+	}
+	
+}
+
+
+
+
+
+
+
+
