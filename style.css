@@ -15,11 +15,11 @@ a {
 }
 
 a:link, a:visited {
-	color: #2d3ddc; /* This is the color of title of each box */
+	color: #4dc9ca; /* This is the color of title of each box */
 }
 
 a:hover, a:active {
-	background-color: #2d3ddc; /* This is the background color of box title when cursor places on that */
+	background-color: #4dc9ca; /* This is the background color of box title when cursor places on that */
 	color: #FFF;   /* This is the color of the text of title box when cursor places on the title */
 }
 
