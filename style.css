@@ -384,12 +384,12 @@ color:
 }
 .triangle {
   background: auto;
-  border-top: 7.5px solid transparent;
-  border-bottom: 7.5px solid transparent;
-  border-left: 7.5px solid red;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid red;
   z-index: 2;
   position: relative;
-  top: -5px;
+  top: -10px;
   left: 0;
 }
 
