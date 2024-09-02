@@ -389,7 +389,7 @@ color:
   border-left: 7.5px solid red;
   z-index: 2;
   position: relative;
-  top: -7.5px;
+  top: -5px;
   left: 0;
 }
 
