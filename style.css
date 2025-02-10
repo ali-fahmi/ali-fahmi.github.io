@@ -395,8 +395,29 @@ color:
 
 
 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
 
+.farsi {
+    display: none;
+    direction: rtl;
+    font-family: Tahoma, sans-serif;
+}
 
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	margin-left: -50px;
+}
+
+h1 {
+	text-align: left;
+  }
 
 
 
